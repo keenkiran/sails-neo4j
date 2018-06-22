@@ -1,0 +1,35 @@
+{
+  "name": "sails-neo4j",
+  "version": "0.3.0",
+  "description": "Neo4j adapter for Sails.js",
+  "main": "lib/adapter.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keenkiran/sails-neo4j"
+  },
+  "keywords": [
+    "orm",
+    "waterline",
+    "sails",
+    "sailsjs",
+    "sails.js",
+    "neo4j",
+    "graph",
+    "database"
+  ],
+  "author": "Kiran Pasavedala",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "0.1.22",
+    "lodash": "^2.4.1",
+    "neo4j-driver": "^1.2.0",
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.15.1"
+  }
+}
